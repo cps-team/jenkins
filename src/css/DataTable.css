@@ -1,0 +1,11 @@
+/* .dataTableSelectBtn {
+    display: block;
+    text-align: end;
+} */
+
+.ant-table table { font-size: 14px; }
+
+.ant-table-thead > tr > th {
+    background-color: rgb(245, 245, 245);
+    font-weight: bolder;
+}

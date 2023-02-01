@@ -1,0 +1,39 @@
+.popupTitle {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.macNameSubTitle {
+    float: right;
+    margin-top: 24px;
+}
+
+.popupLayoutContent{
+    text-align: center;
+}
+
+.ant-tabs-nav-list {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-custom-tab-bar{
+    width: 850px;
+}
+
+.ant-tabs-nav {
+    margin-bottom: 30px !important; 
+}
+
+.popup-open {
+    pointer-events: all;
+  }
+
+.ant-tabs-content {
+    height: 100%;
+}
+
+.ant-tabs-tabpane {
+    height: 100%;
+}

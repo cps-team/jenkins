@@ -1,0 +1,28 @@
+#bg{ 
+    background-image: url(../img/connecting_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+} 
+
+.main-container {
+    width: 500px;
+    height: 230px;
+    position: relative;
+    top: 65%;
+    margin: auto;
+}
+
+
+
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.608) !important;
+}
+
+/* .form-control input::placeholder { 
+    color: rgb(255, 255, 255) !important;
+} */

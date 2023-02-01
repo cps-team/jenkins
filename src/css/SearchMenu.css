@@ -1,0 +1,15 @@
+#colLabel {
+    background-color: #EAEAEA;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#colContent {
+    background-color: white;
+}
+
+#layout {
+    background-color: white;
+    border: 1px solid black;
+    width: 750px;
+}
