@@ -11,7 +11,6 @@ const unityContext = new UnityContext({
 
 
 function test_jeju_block1_district1() {
-  console.log('unityContext : ', unityContext);
   return (
     <div className="unity_container">
       <Unity className="unity_screen"
