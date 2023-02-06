@@ -2,19 +2,11 @@ import Unity, { UnityContext } from "react-unity-webgl";
 import React from "react";
 import "../../css/Map.css";
 
-// const unityContext = new UnityContext({
-//   loaderUrl: "/Build/Test_jeju_block1_district1/Test_jeju_block1_district1.loader.js",
-//   dataUrl: "/Build/Test_jeju_block1_district1/Test_jeju_block1_district1.data",
-//   frameworkUrl: "/Build/Test_jeju_block1_district1/Test_jeju_block1_district1.framework.js",
-//   codeUrl: "/Build/Test_jeju_block1_district1/Test_jeju_block1_district1.wasm",
-// });
-
-
 const unityContext = new UnityContext({
-  loaderUrl: "\\Build\\Test_jeju_block1_district1\\Test_jeju_block1_district1.loader.js",
-  dataUrl: "\\Build\\Test_jeju_block1_district1\\Test_jeju_block1_district1.data",
-  frameworkUrl: "\\Build\\Test_jeju_block1_district1\\Test_jeju_block1_district1.framework.js",
-  codeUrl: "\\Build\\Test_jeju_block1_district1\\Test_jeju_block1_district1.wasm",
+  loaderUrl: "/Build/Test_jeju_block1_district1/Test_jeju_block1_district1.loader.js",
+  dataUrl: "/Build/Test_jeju_block1_district1/Test_jeju_block1_district1.data",
+  frameworkUrl: "/Build/Test_jeju_block1_district1/Test_jeju_block1_district1.framework.js",
+  codeUrl: "/Build/Test_jeju_block1_district1/Test_jeju_block1_district1.wasm",
 });
 
 

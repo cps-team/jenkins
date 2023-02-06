@@ -19,7 +19,13 @@ app.use('/Machine', Machine);
 app.use('/animation_table', animation_table);
 
 // 리액트 빌드파일을 서버에 제공 // 배포하기전에 이부분 주석해제
-app.use(express.static(path.join(__dirname, '../build')));
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.get('/*', function (req, res) {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+
 
 
 
