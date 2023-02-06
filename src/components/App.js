@@ -10,7 +10,6 @@ import DDhtsLineA from './Page/DDhts_Line_A';
 import GeoMap from './Page/GeoMap';
 import PopUp from './popup/Popup';
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { useDispatch, useSelector } from 'react-redux';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Layout from './Layout/Layout';

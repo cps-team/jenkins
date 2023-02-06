@@ -3,6 +3,7 @@ const cors = require('cors');
 const path = require('path');
 
 const PORT = process.env.PORT || 4000;
+// console.log('process.env : ', process.env)
 var app = express();
 const User = require('./route/User');
 const Factory = require('./route/Factory');
@@ -17,7 +18,7 @@ app.use('/Factory', Factory);
 app.use('/Machine', Machine);
 app.use('/animation_table', animation_table);
 
-// 리액트 빌드파일을 서버에 제공
+// 리액트 빌드파일을 서버에 제공 // 배포하기전에 이부분 주석해제
 app.use(express.static(path.join(__dirname, '../build')));
 
 

@@ -475,7 +475,6 @@ class Helper {
                     AND e.c_code = '${param.machineCode}'
                 group by f.now_uptime;`;
         }
-        console.log('sql1 : ', sql1)
         let machineLogData = await db.query(sql1);
         for (let machineLogRow of machineLogData.rows) {
             machineLogList.push(machineLogRow);
