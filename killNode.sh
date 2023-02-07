@@ -4,3 +4,4 @@ if [[ $PROC == *"node"* ]]; then
     kill -15 `ps -ef | grep node | grep -v grep | awk '{print $2}'`
 else
     echo "Process is not running."
+fi
