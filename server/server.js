@@ -18,6 +18,8 @@ app.use('/Factory', Factory);
 app.use('/Machine', Machine);
 app.use('/animation_table', animation_table);
 
+console.log('test,sets');
+
 app.listen(PORT, () => {
     console.log(`Server On : http://localhost:${PORT}/`);
 });
